@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Note">
+
+    <Button
+        android:id="@+id/buttonStartNote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="-1dp"
+
+
+        android:text="@string/save"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="446dp" />
+
+    <ListView
+        android:id="@+id/allNotes"
+        android:layout_width="380dp"
+        android:layout_height="468dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="43dp"
+        android:layout_marginEnd="14dp"
+        android:layout_marginBottom="0dp" />
+
+    <EditText
+        android:id="@+id/editSearchNote"
+        android:layout_width="205dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="25dp"
+        android:layout_toStartOf="@+id/buttonSearch"
+        android:ems="10"
+        android:hint="Szukaj"
+        android:inputType="textPersonName" />
+
+
+
+    <ImageButton
+        android:id="@+id/buttonSearch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="0dp"
+        android:layout_marginRight="1dp"
+        android:src="@android:drawable/ic_menu_search" />
+
+</RelativeLayout>

@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Aplikacja</string>
+    <string name="accept">Zaloguj</string>
+    <string name="login">Login</string>
+    <string name="password">Hasło</string>
+    <string name="account">Stwórz konto</string>
+    <string name="recovery">Odzyskaj hasło</string>
+    <string name="exit">Wyjdź</string>
+    <string name="mail">E-mail</string>
+    <string name="pin">Pin</string>
+    <string name="error_message_name">Wprowadź imię</string>
+    <string name="error_message_email">Wprowadź mail</string>
+    <string name="success_message">Rejestracja zakończona</string>
+    <string name="error_email_exists">E-mail już istnieje</string>
+    <string name="error_message_password">Wprowadź hasło</string>
+    <string name="error_password_match">Złe hasła</string>
+    <string name="title_activity_contact">Contact</string>
+    <string name="save">Zapisz</string>
+    <string name="modyfi">Zmień</string>
+    <string name="delete">Usuń</string>
+    <string name="move">Przenieś</string>
+    <string name="add">Dodaj</string>
+</resources>
